@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #034159;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Importante para centrar verticalmente */
+}
+
+.container {
+    max-width: 100%; /* Para evitar que la caja se expanda más allá del ancho de la pantalla */
+}
+
+.box {
+    border-radius: 10px;
+    background-color: #73aabf;
+    padding: 20px;
+    width: 100%; /* Se asegura de que use todo el ancho disponible */
+    max-width: 500px; /* Un ancho máximo para mantener un tamaño manejable en pantallas grandes */
+    color: #ffffff;
+}
+.botton{
+    background-color:#034159;
+    color: #ffffff;
+}
+.bottonInicio{
+    color: #ffffff;
+}
